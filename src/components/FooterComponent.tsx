@@ -15,7 +15,7 @@ export const FooterComponent = () => {
             </div>
            
             <hr/>
-            Copyright ©2023 All rights reserved
+            <p>Copyright ©2023 All rights reserved</p>
         </div>
     );
 }

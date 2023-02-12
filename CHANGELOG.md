@@ -4,13 +4,16 @@
 
 ### Changes
 
-- Added React Bootstrap
 - Added `CarouselComponent.tsx` as Carousel component
+
+### Dependencies
+
+- Added <span style="color:violet">React Bootstrap</span>  https://react-bootstrap.netlify.app/getting-started/introduction/
 
 ### Todo
 
-- [x] Install <span style="color:'red'">React Icons</span>
-- [x] Install React Router Dom
+- [x] Install <span style="color:orange">React Icons</span>
+- [x] Install <span style="color:orange">React Router Dom</span>
 - [x] Create `NavbarComponent.tsx` Navbar component 
 - [x] Create `FooterComponent.tsx` Footer component
 
@@ -18,13 +21,31 @@
 
 ### Changes
 
-- Added React Icons
-- Added React Router Dom
+- Added <span style="color:violet">React Icons</span>
+- Added <span style="color:violet">React Router Dom</span>
 - Added `NavbarComponent.tsx` Navbar component 
 - Added `FooterComponent.tsx` Footer component
 
 ### Todo
 
 - [ ] Apply React Router
-- [ ] Create Card Component
-- [ ] Create Button Component
+- [x] Create Card Component
+- [x] Create Button Component
+
+## 2023-02-12 20:16:25
+
+### Changes
+
+- Added `ButtonComponent.tsx` Button Component
+- Added `CardComponent.tsx` Card Component
+
+### Dependencies
+
+- Added <span style="color:violet">AOS library</span> - https://michalsnik.github.io/aos/
+
+### Todo
+
+- [ ] Apply React Router
+- [ ] Create Contact Us form
+- [ ] Structure the Home Page
+

@@ -42,6 +42,7 @@
 ### Dependencies
 
 - Added <span style="color:violet">AOS library</span> - https://michalsnik.github.io/aos/
+- Added <span style="color:violet">https://storybook.js.org/docs/react/get-started/introductiongit</span>
 
 ### Todo
 

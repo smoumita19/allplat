@@ -26,22 +26,27 @@ import CarouselComponent from './components/CarouselComponent';
 
 let router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Home />}>
-      <Route index element={<h2>Index</h2>} />
-      <Route path="one" element={<h2>One</h2>} />
-      <Route path="two" element={<h2>Two</h2>} />
-      <Route
-        path="three"
-        action={() => json({ ok: true })}
+    <Route path="/" element={<NavbarComponent />}>
+      <Route index 
+        element={<Home />} 
+      />
+      <Route path="one" 
+        element={<h2>One</h2>} 
+      />
+      <Route path="two" 
+        element={<h2>Two</h2>} 
+      />
+      <Route path="three" 
         element={
-          <>
-            <h2>Three</h2>
-            <CarouselComponent />
-          </>
+         <CarouselComponent />
         }
       />
-      <Route path="four" element={<h2>Four</h2>} />
-      <Route path="five" element={<h2>Five</h2>} />
+      <Route path="four" 
+        element={<h2>Four</h2>} 
+      />
+      <Route path="five" 
+        element={<h2>Five</h2>} 
+      />
     </Route>
   )
 );
@@ -49,9 +54,6 @@ let router = createBrowserRouter(
 
 function App() {
   return  <RouterProvider router={router} />;
-
 }
-
-
 
 export default App;

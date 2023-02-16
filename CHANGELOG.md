@@ -46,7 +46,16 @@
 
 ### Todo
 
-- [ ] Apply React Router
+- [x] Apply React Router
 - [ ] Create Contact Us form
 - [ ] Structure the Home Page
+
+## 2023-02-17 05:19:39
+
+### Changes
+
+- Applied React Router
+
+
+
 

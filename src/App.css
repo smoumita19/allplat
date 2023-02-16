@@ -29,7 +29,14 @@
 }
 
 /* Navbar */
-.custom-nav .nav-link:hover {
+
+.custom-nav .nav-link a {
+  color: rgba(0,0,0,0.55);
+  text-decoration: none;
+  transition:  color .2s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out
+}
+
+.custom-nav .nav-link:hover a, .custom-nav .nav-link a:focus {
   color: #5B42F3;
 }
 

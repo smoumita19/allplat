@@ -1,22 +1,24 @@
 import { CardComponent } from '../components/CardComponent';
 import CarouselComponent from '../components/CarouselComponent';
+import { HeadingComponent } from '../components/HeadingComponent';
 
 
 export const Home = () => {
     return (
         <div>
-               <CarouselComponent />
                <div className="container">
-                <div className="row">
-                    <div className="col-sm">
-                     <CardComponent fontClass={''} cardText={''} />
+               <CarouselComponent />
+               <HeadingComponent />
+                <div className="row mt-4 mb-4">
+                    <div className="col-4">
+                     <CardComponent fontClass={'bi bi-back'} cardText={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptates! Consectetur voluptas esse harum assumenda'} />
                     </div>
-                    <div className="col-sm">
-                    <CardComponent fontClass={''} cardText={''} />
+                    <div className="col-4">
+                     <CardComponent fontClass={'bi bi-back'} cardText={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptates! Consectetur voluptas esse harum assumenda'} />
 
                     </div>
-                    <div className="col-sm">
-                    <CardComponent fontClass={''} cardText={''} />
+                    <div className="col-4">
+                     <CardComponent fontClass={'bi bi-back'} cardText={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptates! Consectetur voluptas esse harum assumenda'} />
                     </div>
                 </div>
                 </div>

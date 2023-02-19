@@ -102,8 +102,10 @@
 
 /* Card */
 .custom-card {
-  width: 18rem;
+  /* width: 18rem; */
   color: #fff;
+  text-align: center;
+  padding: 20px;
   background-image: linear-gradient(144deg,#4062ff, #5B42F3 50%,#1660cd);
 }
 .custom-card i {

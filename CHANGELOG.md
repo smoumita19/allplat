@@ -56,6 +56,15 @@
 
 - Applied React Router
 
+## 2023-02-19 13:26:55
+
+### Changes
+
+- Modified Card Component
+- Added `HeadingComponent.tsx` Heading Component
+
+
+
 
 
 

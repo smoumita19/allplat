@@ -9,8 +9,9 @@ export const CardComponent = (props : CardComponentProps) => {
     return (
         <Card className="custom-card">
         <Card.Body>
-            <Card.Title><i className={props.fontClass}></i></Card.Title>
+            <Card.Title className="m-2 mb-4"><i className={props.fontClass}></i></Card.Title>
             <Card.Text>
+                
             {props.cardText}
             </Card.Text>
         </Card.Body>

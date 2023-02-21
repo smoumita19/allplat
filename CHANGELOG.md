@@ -48,7 +48,7 @@
 
 - [x] Apply React Router
 - [ ] Create Contact Us form
-- [ ] Structure the Home Page
+- [x] Structure the Home Page
 
 ## 2023-02-17 05:19:39
 
@@ -62,6 +62,12 @@
 
 - Modified Card Component
 - Added `HeadingComponent.tsx` Heading Component
+
+## 2023-02-21 07:16:16
+
+## Changes
+
+- Structured the Home Page
 
 
 

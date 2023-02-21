@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Alert from 'react-bootstrap/Alert';
@@ -21,6 +21,8 @@ import {
 } from "react-router-dom";
 import { Carousel } from 'react-bootstrap';
 import CarouselComponent from './components/CarouselComponent';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 //Need to fix it
 
@@ -28,7 +30,7 @@ let router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<NavbarComponent />}>
       <Route index 
-        element={<Home />} 
+        element={<Home /> } 
       />
       <Route path="one" 
         element={<h2>One</h2>} 
@@ -53,6 +55,12 @@ let router = createBrowserRouter(
 
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+    });
+    AOS.refresh();
+  }, []);
   return  <RouterProvider router={router} />;
 }
 

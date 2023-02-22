@@ -28,7 +28,7 @@
 
 ### Todo
 
-- [ ] Apply React Router
+- [x] Apply React Router
 - [x] Create Card Component
 - [x] Create Button Component
 
@@ -47,7 +47,7 @@
 ### Todo
 
 - [x] Apply React Router
-- [ ] Create Contact Us form
+- [x] Create Contact Us form
 - [x] Structure the Home Page
 
 ## 2023-02-17 05:19:39
@@ -68,6 +68,18 @@
 ## Changes
 
 - Structured the Home Page
+
+## 2023-02-22 19:47:05
+
+### Changes
+
+- Added `ContacUs.tsx` 
+
+### Todo
+
+- [ ] Create About Us Page
+- [ ] Create Product Page
+- [ ] Create Team Page
 
 
 

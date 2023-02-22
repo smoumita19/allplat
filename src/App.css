@@ -29,9 +29,12 @@
 }
 
 /* Navbar */
-
+/* -------------------------------- */
 .custom-nav .nav-link a {
   color: rgba(0,0,0,0.55);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 13px;
   text-decoration: none;
   transition:  color .2s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out
 }
@@ -39,10 +42,11 @@
 .custom-nav .nav-link:hover a, .custom-nav .nav-link a:focus {
   color: #5B42F3;
 }
-
 /* End of Navbar */
+/* -------------------------------- */
 
 /* Button */
+/* -------------------------------- */
 .custom-button-div {
   text-align : center;
   display: inline-block;
@@ -97,10 +101,29 @@
     min-width: 150px;
   }
 }
-
 /* End of Button */
+/* -------------------------------- */
+
+/* Carousel  */
+/* -------------------------------- */
+
+.custom-carousel {
+
+  background: black;
+  overflow: hidden;
+}
+.custom-carousel img {
+  opacity: 0.5;
+
+}
+/* End of Carousel */
+/* -------------------------------- */
+
+
+
 
 /* Card */
+/* -------------------------------- */
 .custom-card {
   /* width: 18rem; */
   color: #fff;
@@ -120,8 +143,36 @@
   transition: 0.4s linear;
 }
 /* End of Card */
+/* -------------------------------- */
+
+/* Contact Us */
+/* -------------------------------- */
+.parallax {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/416320/pexels-photo-416320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  /* Set a specific height */
+  min-height: 250px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax > div{
+  background-color: "white" !important;
+  padding: "30px";
+  margin: "80px"
+}
+
+/* End of Contact Us */
+/* -------------------------------- */
+
 
 /* Footer */
+/* -------------------------------- */
 .footer {
   text-align: center;
   padding: 20px;
@@ -168,4 +219,5 @@
   }
 }
 /* End of Footer */
+/* -------------------------------- */
 

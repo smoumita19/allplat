@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function CarouselComponent() {
   return (
-    <Carousel variant="light">
+    <Carousel variant="light" className="custom-carousel">
       <Carousel.Item>
         <img
           className="d-block w-100"

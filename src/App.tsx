@@ -23,6 +23,7 @@ import { Carousel } from 'react-bootstrap';
 import CarouselComponent from './components/CarouselComponent';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { ContactUs } from './pages/ContactUs';
 
 //Need to fix it
 
@@ -46,8 +47,8 @@ let router = createBrowserRouter(
       <Route path="four" 
         element={<h2>Four</h2>} 
       />
-      <Route path="five" 
-        element={<h2>Five</h2>} 
+      <Route path="contact-us" 
+        element={<ContactUs />} 
       />
     </Route>
   )

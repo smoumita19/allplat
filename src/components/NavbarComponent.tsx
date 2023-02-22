@@ -6,9 +6,11 @@ import { Link, Outlet } from 'react-router-dom';
 function NavbarComponent() {
   return (
     <>
-      <Navbar bg="light" variant="light" className="custom-nav">
+      <Navbar bg="light" variant="light" className="custom-nav" expand="lg">
         <Container>
           <Navbar.Brand href="#home">ALLPLAT</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="">
               <Link to="/">Home</Link>
@@ -17,15 +19,16 @@ function NavbarComponent() {
               <Link to="/one">About</Link>
             </Nav.Link>
             <Nav.Link href="#pricing">
-              <Link to="/one">Products and Services</Link>
+              <Link to="/one">Products</Link>
             </Nav.Link>
             <Nav.Link href="#pricing">
               <Link to="/one">Team</Link>
             </Nav.Link>
-            <Nav.Link href="#pricing">
-              <Link to="/one">Contact Us</Link>
+            <Nav.Link href="">
+              <Link to="/contact-us">Contact Us</Link>
             </Nav.Link>
           </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
       <Outlet />

@@ -80,6 +80,7 @@
 - [ ] Create About Us Page
 - [ ] Create Product Page
 - [ ] Create Team Page
+- [ ] Fix About us page 
 
 
 

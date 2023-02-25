@@ -73,15 +73,21 @@
 
 ### Changes
 
-- Added `ContacUs.tsx` 
+- Added `ContactUs.tsx` 
 
 ### Todo
 
-- [ ] Create About Us Page
+- [x] Create About Us Page
 - [ ] Create Product Page
 - [ ] Create Team Page
 - [ ] Fix About us page 
 
+## 2023-02-25 21:24:53
+
+### Changes
+
+- Added `AboutUs.tsx`
+- Modified `Home.tsx`
 
 
 

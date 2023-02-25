@@ -16,7 +16,7 @@ function NavbarComponent() {
               <Link to="/">Home</Link>
             </Nav.Link>
             <Nav.Link href="#features">
-              <Link to="/one">About</Link>
+              <Link to="/about-us">About</Link>
             </Nav.Link>
             <Nav.Link href="#pricing">
               <Link to="/one">Products</Link>

@@ -129,6 +129,7 @@
   color: #fff;
   text-align: center;
   padding: 20px;
+  margin: 60px 0px;
   background-image: linear-gradient(144deg,#4062ff, #5B42F3 50%,#1660cd);
 }
 .custom-card i {
@@ -140,7 +141,8 @@
   color: #5B42F3;
   border-color: #5B42F3;
   background-image: none;
-  transition: 0.4s linear;
+  margin-top: 40px;
+  transition: 0.5s ease-in-out;
 }
 /* End of Card */
 /* -------------------------------- */

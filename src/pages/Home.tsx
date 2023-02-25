@@ -15,7 +15,7 @@ export const Home = () => {
                 <HeadingComponent />
 
                 <Row className="justify-content-md-center">
-                    <Col xs="5" className="text-right" >
+                    <Col md="5" className="text-right" >
                         <h5>Heading five</h5>
                         <h2>Heading two</h2>
                         {/* <hr/> */}
@@ -27,7 +27,7 @@ export const Home = () => {
                         </p>
                     
                     </Col>
-                    <Col xs="5" >
+                    <Col md="5" >
                         <img data-aos="fade-up" width="100%" src="https://images.pexels.com/photos/73833/weld-hot-soldering-radio-welder-73833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                     </Col>
                 </Row>
@@ -36,10 +36,10 @@ export const Home = () => {
                 <HeadingComponent />
 
                 <Row className="justify-content-md-center">
-                    <Col xs="5" >
+                    <Col md="5" >
                         <img data-aos="fade-up" width="100%" src="https://images.pexels.com/photos/73833/weld-hot-soldering-radio-welder-73833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                     </Col>
-                    <Col xs="5" >
+                    <Col md="5" >
                         <h5>Heading five</h5>
                         <h2>Heading two</h2>
                         {/* <hr/> */}
@@ -62,17 +62,7 @@ export const Home = () => {
                 </div>
 
                 <HeadingComponent />
-                <Row>
-                    <Col xs="4">
-                        <CardComponent fontClass={'bi bi-back'} cardText={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptates! Consectetur voluptas esse harum assumenda'} />
-                    </Col>
-                    <Col xs="4">
-                        <CardComponent fontClass={'bi bi-back'} cardText={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptates! Consectetur voluptas esse harum assumenda'} />
-                    </Col>
-                    <Col xs="4">
-                        <CardComponent fontClass={'bi bi-back'} cardText={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptates! Consectetur voluptas esse harum assumenda'} />
-                    </Col>
-                </Row>
+               
 
                 <FooterComponent/>
                 </div>

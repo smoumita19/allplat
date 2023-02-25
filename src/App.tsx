@@ -24,6 +24,7 @@ import CarouselComponent from './components/CarouselComponent';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { ContactUs } from './pages/ContactUs';
+import { AboutUs } from './pages/AboutUs';
 
 //Need to fix it
 
@@ -33,8 +34,8 @@ let router = createBrowserRouter(
       <Route index 
         element={<Home /> } 
       />
-      <Route path="one" 
-        element={<h2>One</h2>} 
+      <Route path="about-us" 
+        element={<AboutUs />} 
       />
       <Route path="two" 
         element={<h2>Two</h2>} 

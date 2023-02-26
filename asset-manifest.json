@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/allplat/static/css/main.13520403.css",
-    "main.js": "/allplat/static/js/main.d23e8978.js",
+    "main.css": "/allplat/static/css/main.e6d3d068.css",
+    "main.js": "/allplat/static/js/main.199c3a67.js",
     "static/js/787.c489d31f.chunk.js": "/allplat/static/js/787.c489d31f.chunk.js",
     "static/media/bootstrap-icons.woff?": "/allplat/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/bootstrap-icons.woff2?": "/allplat/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "index.html": "/allplat/index.html",
-    "main.13520403.css.map": "/allplat/static/css/main.13520403.css.map",
-    "main.d23e8978.js.map": "/allplat/static/js/main.d23e8978.js.map",
+    "main.e6d3d068.css.map": "/allplat/static/css/main.e6d3d068.css.map",
+    "main.199c3a67.js.map": "/allplat/static/js/main.199c3a67.js.map",
     "787.c489d31f.chunk.js.map": "/allplat/static/js/787.c489d31f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13520403.css",
-    "static/js/main.d23e8978.js"
+    "static/css/main.e6d3d068.css",
+    "static/js/main.199c3a67.js"
   ]
 }

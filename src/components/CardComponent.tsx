@@ -8,7 +8,9 @@ type CardComponentProps = {
 export const CardComponent = (props : CardComponentProps) => {
     return (
         <Card className="custom-card">
+
         <Card.Body>
+
             <Card.Title className="m-2 mb-4"><i className={props.fontClass}></i></Card.Title>
             <Card.Text>
                 

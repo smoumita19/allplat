@@ -25,6 +25,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { ContactUs } from './pages/ContactUs';
 import { AboutUs } from './pages/AboutUs';
+import { Products } from './pages/Products';
+import { Team } from './pages/Team';
 
 //Need to fix it
 
@@ -37,16 +39,11 @@ let router = createBrowserRouter(
       <Route path="about-us" 
         element={<AboutUs />} 
       />
-      <Route path="two" 
-        element={<h2>Two</h2>} 
+      <Route path="products" 
+        element={<Products />} 
       />
-      <Route path="three" 
-        element={
-         <CarouselComponent />
-        }
-      />
-      <Route path="four" 
-        element={<h2>Four</h2>} 
+      <Route path="team" 
+        element={<Team />} 
       />
       <Route path="contact-us" 
         element={<ContactUs />} 

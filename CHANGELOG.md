@@ -78,9 +78,9 @@
 ### Todo
 
 - [x] Create About Us Page
-- [ ] Create Product Page
-- [ ] Create Team Page
-- [ ] Fix About us page 
+- [x] Create Product Page
+- [x] Create Team Page
+- [x] Fix About us page 
 
 ## 2023-02-25 21:24:53
 
@@ -88,6 +88,21 @@
 
 - Added `AboutUs.tsx`
 - Modified `Home.tsx`
+
+## 2023-02-26 09:30:41
+
+### Changes
+
+- Added `Products.tsx`
+- Added `Team.tsx`
+- Modified `AboutUs.tsx`
+
+### Todo
+
+- [ ] Check responsiveness
+- [ ] Work on CSS
+
+
 
 
 

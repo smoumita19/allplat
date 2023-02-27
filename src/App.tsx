@@ -5,7 +5,7 @@ import Alert from 'react-bootstrap/Alert';
 import { Home } from './pages/Home';
 import NavbarComponent from './components/NavbarComponent';
 import { FooterComponent } from './components/FooterComponent';
-import { ButtonComponent } from './components/ButtonComponent';
+import { ButtonComponentPrimary } from './components/ButtonComponentPrimary';
 import { CardComponent } from './components/CardComponent';
 import {
   createBrowserRouter,

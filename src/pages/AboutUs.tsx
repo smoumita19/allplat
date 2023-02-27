@@ -6,7 +6,7 @@ import { HeadingComponent } from "../components/HeadingComponent";
 export const AboutUs = () => {
     return (
         <div className="container">
-            <HeadingComponent />
+            <HeadingComponent heading={"About Us"}/>
             <Row className="justify-content-md-center">
                     <Col md="5" >
                         <img data-aos="fade-up" width="100%" src="https://images.pexels.com/photos/73833/weld-hot-soldering-radio-welder-73833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />

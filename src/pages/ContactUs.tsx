@@ -1,4 +1,5 @@
 import { Form, Button, Col, Row, Card } from "react-bootstrap";
+import { ButtonComponentPrimary } from "../components/ButtonComponentPrimary";
 import { FooterComponent } from "../components/FooterComponent";
 import { HeadingComponent } from "../components/HeadingComponent";
 
@@ -6,7 +7,7 @@ export const ContactUs = () => {
     return (
         <div className="custom-contact-us">
             <div className="parallax pt-2">
-                <HeadingComponent />
+                <HeadingComponent heading={"Contact Us"}/>
                 <div >
                 <Row className="justify-content-md-center" >
                     <Col md="4" style={{ backgroundColor: "white", padding: "20px"}}>
@@ -26,9 +27,10 @@ export const ContactUs = () => {
                         <Form.Group className="mb-3" controlId="formBasicCheckbox">
                             <Form.Check type="checkbox" label="Check me out" />
                         </Form.Group>
-                        <Button variant="primary" type="submit">
+                        {/* <Button variant="primary" type="submit">
                             Submit
-                        </Button>
+                        </Button> */}
+                        <ButtonComponentPrimary />
                     </Form>
                     </Col>
                 </Row>

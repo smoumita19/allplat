@@ -9,7 +9,9 @@ function NavbarComponent() {
       <Navbar bg="light" variant="light" className="custom-nav" expand="lg">
         <Container>
           <Navbar.Brand href="#home">ALLPLAT</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" >
+          <i className="bi bi-three-dots"></i>
+          </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="">
@@ -21,10 +23,10 @@ function NavbarComponent() {
             <Nav.Link href="">
               <Link to="/products">Products</Link>
             </Nav.Link>
-            <Nav.Link href="#pricing">
+            <Nav.Link href="">
               <Link to="/team">Team</Link>
             </Nav.Link>
-            <Nav.Link href="">
+            <Nav.Link>
               <Link to="/contact-us">Contact Us</Link>
             </Nav.Link>
           </Nav>

@@ -5,13 +5,14 @@ type CardComponentTwoProps = {
     cardTitle ?: string; 
     cardText ?: string;
     cardFooter ?: string;
+    animationDelay ?: string;
 
 }
 
 export const CardComponentTwo = (props : CardComponentTwoProps) => {
     return (
         // <CardGroup>
-        <Card className="p-2 m-2 custom-card-2">
+        <Card className="p-2 m-2 custom-card-2" data-aos="fade-up" data-aos-delay={props.animationDelay}>
           <Card.Img variant="top" src={props.imgSrc} />
           <Card.Body>
             <Card.Title>{props.cardTitle}</Card.Title>

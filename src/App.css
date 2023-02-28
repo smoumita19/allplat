@@ -164,6 +164,28 @@
   opacity: 1;
 }
 
+.custom-button-div-secondary {
+  margin: 40px 0;
+}
+
+.custom-button-secondary {
+  width: 150px;
+  height: 50px;
+  border: 2px solid var(--tertiary);
+  color: var(--tertiary);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background-color: transparent;
+}
+
+.custom-button-secondary:hover {
+  border: 2px solid transparent;
+  color: var(--quaternary);
+  background-color: var(--tertiary);
+  transition-duration: 0.5s;
+}
 
 /* End of Button */
 /* -------------------------------- */
@@ -232,8 +254,8 @@
   color: #fff;
   text-align: center;
   padding: 20px;
-  margin: 60px 0px;
-  background-image: linear-gradient(144deg,#4062ff, #5B42F3 50%,#1660cd);
+  /* margin: 60px 0px; */
+  background-image: linear-gradient(144deg,var(--tertiary), var(--primary) ,var(--tertiary) 50%);
 }
 .custom-card i {
   font-size: 40px;
@@ -241,17 +263,19 @@
 }
 
 .custom-card:hover {
-  color: #5B42F3;
-  border-color: #5B42F3;
+  /* color: #5B42F3;
+  border-color: #5B42F3; */
+  color: var(--tertiary);
+  border-color: var(--tertiary);
   background-image: none;
   margin-top: 40px;
-  transition: 0.5s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .custom-card-2 {
   border: none !important;
   border-radius: 2px !important;
-  box-shadow: 0px 0px 10px rgba(86, 86, 86, 0.2) !important; 
+  box-shadow: 0px 0px 10px rgba(86, 86, 86, 0.1) !important; 
 }
 
 /* End of Card */
@@ -280,14 +304,14 @@
   background-image: url("https://images.pexels.com/photos/416320/pexels-photo-416320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 
   /* Set a specific height */
-  min-height: 250px; 
+  min-height: 200px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  /* color: white; */
 }
 
 .parallax > div{
@@ -304,24 +328,56 @@
 /* End of Contact Us */
 /* -------------------------------- */
 
+/* Form */
+/* -------------------------------- */
+.custom-form .form-control {
+  border-radius: 0 ;
+}
+
+/* End of Form */
+/* -------------------------------- */
+
 
 /* Footer */
 /* -------------------------------- */
-.footer {
+.custom-footer {
   text-align: center;
   padding: 20px;
   margin-top: 50px;
 }
 
+.custom-footer .contact-info i {
+  color: var(--tertiary);
+  /* background-image: linear-gradient(144deg,var(--tertiary), var(--primary) ,var(--tertiary) 50%); */
+
+}
+
+.custom-footer .contact-info p{
+  font-size: 14px;
+
+}
+
+.custom-footer .contact-info a{
+  color: var(--tertiary);
+  text-decoration: none;
+
+}
+
 .social {
     display: flex;
+    color: #fff;
+    flex-direction: column-reverse;
     justify-content: center; 
+    align-items: center;
+    margin-top: -30px;
 }
 
 .social-icon {
   /* color: #282c34; */
+  /* justify-content: center;  */
+
   color: #fff;
-  width: 50px;
+  width: 50px !important;
   height: 50px;
   margin: 10px;
   padding-top: 5px;
@@ -330,21 +386,40 @@
   /* border: 2px solid #282c34; */
   border: 2px solid #fff;
   /* background-image: linear-gradient(144deg,#4062ff, #5B42F3 50%,#1660cd); */
-  background-image: linear-gradient(90deg,var(--tertiary), var(--primary) ,var(--tertiary) 50%);
+  background-image: linear-gradient(144deg,var(--tertiary), var(--primary) ,var(--tertiary) 50%);
 
 }
 
 .social-icon:hover {
   color: #fff;
-  transform: scale(1.4);
+  transform: scale(1.2);
   background-color: #282c34;
   border: 2px solid #fff;
   transition: 0.4s;
 }
 
-.footer p {
+.custom-footer p {
   color: var(--secondary);
   font-size: 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .custom-footer .contact-info h5 {
+    font-size: 15px;
+  
+  }
+
+  .custom-footer .contact-info i {
+    font-size: 45px !important;
+  
+  }
+
+  .social { 
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+  }
+
 }
 
 @keyframes App-logo-spin {

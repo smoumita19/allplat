@@ -99,7 +99,7 @@
 
 ### Todo
 
-- [ ] Check responsiveness
+- [x] Check responsiveness
 - [x] Work on CSS
 
 ## 2023-02-27 06:23:13
@@ -110,6 +110,17 @@
 - Added `ButtonComponentSecondary.tsx`
 - Chose a color palette
 
+## 2023-02-28 05:57:09
+
+### Changes
+
+- Checked for responsiveness
+- Modified some CSS
+
+### Todo
+
+- [ ] Deploy
+- [ ] Get Feedback
 
 
 

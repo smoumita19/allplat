@@ -119,8 +119,20 @@
 
 ### Todo
 
-- [ ] Deploy
-- [ ] Get Feedback
+- [x] Deploy
+- [x] Get Feedback
+
+## 2023-03-04 22:32:26
+
+### Changes
+
+- Deployed
+- Got feedback
+
+### Todo
+
+- [ ] Make logo
+
 
 
 

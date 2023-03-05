@@ -131,7 +131,7 @@
 
 ### Todo
 
-- [ ] Make logo
+- [x] Make logo
 
 
 

@@ -132,6 +132,7 @@
 ### Todo
 
 - [x] Make logo
+- [ ] Get content
 
 
 

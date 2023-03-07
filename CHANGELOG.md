@@ -133,6 +133,7 @@
 
 - [x] Make logo
 - [ ] Get content
+- [ ] Add animation 
 
 
 
